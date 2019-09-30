@@ -1,0 +1,27 @@
+{
+  "port": 4000,
+  "database": {
+    "host": "localhost",
+    "port": 27017,
+    "name": "payments",
+    "uri": "",
+    "username": "",
+    "password": "",
+    "debug": false
+  },
+  "sequelize": {
+      "host": "localhost",
+      "uri":"",
+      "options": {
+          "logging": false,
+          "operatorsAliases": false,
+          "define": {
+              "timestamps": false
+          },
+          "dialect":  "postgres"
+        }
+  },
+  "jwt": {
+    "secret": "===q1iL7CrOMjOIYj2pJChmtJeEzsY7EP4U==="
+  }
+}
