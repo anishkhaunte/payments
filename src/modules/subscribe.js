@@ -8,7 +8,6 @@ redis.subscribe("payment", function(err, count) {
 
 redis.on("message", function(channel, message) {
   const modules = include('modules');
-  //TODO: receive the order and send it for processing
   console.log("Receive message %s from channel %s", message, channel);
   message =  JSON.parse(message);
   let order = message.order;
