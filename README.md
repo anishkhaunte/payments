@@ -1,9 +1,10 @@
+# Payments
 Payments application written in Node.js
 
-DB: Mongo
+* DB: Mongo
 
-Caching : Redis
+* Caching : Redis
 
-Pub/Sub: Redis (subscriber ,publisher used) Running on port : 4000
+* Pub/Sub: Redis (subscriber ,publisher used) Running on port : 4000
 
-To start node src/server.js
+* To start : <b>node src/server.js</b>
